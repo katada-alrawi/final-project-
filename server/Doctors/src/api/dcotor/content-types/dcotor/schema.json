@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dcotors",
+  "info": {
+    "singularName": "dcotor",
+    "pluralName": "dcotors",
+    "displayName": "Dcotor"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
